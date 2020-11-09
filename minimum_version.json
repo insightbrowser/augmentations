@@ -1,4 +1,6 @@
 {
   "version": "0.0.7",
-  "build": "5"
+  "build": "5",
+  "blocking_version": "0.0.7",
+  "blocking_build": "5",
 }
