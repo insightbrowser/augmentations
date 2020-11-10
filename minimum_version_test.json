@@ -2,5 +2,5 @@
   "version": "0.0.8",
   "build": "3",
   "blocking_version": "0.0.8",
-  "blocking_build": "2",
+  "blocking_build": "1",
 }
