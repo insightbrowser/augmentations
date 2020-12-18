@@ -2,7 +2,7 @@
   "Google Search": {
     "querySelector": {
       "phone": ".KJDcUb a",
-      "pad": ".g .rc a"
+      "pad": ".yuRUbf > a"
     }
   },
   "DuckDuckGo": {
