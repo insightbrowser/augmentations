@@ -2,7 +2,7 @@
   "info": "National Step in a Puddle and Splash Your Friend Day",
   "2021-01-11": {
     "byline": "World Sketchnote Day",
-    "darkBackground": "<url>",
-    "lightBackground": "<url>"
+    "darkBackground": "https://lumospublicassets.s3.us-east-2.amazonaws.com/app-backgrounds/dark4.png",
+    "lightBackground": "https://lumospublicassets.s3.us-east-2.amazonaws.com/app-backgrounds/light4.png"
   }
 }
