@@ -1,14 +1,24 @@
 {
-  "Google Search": {
-    "querySelector": {
-      "phone": ".mnr-c .KJDcUb a.BmP5tf",
-      "pad": ".yuRUbf > a"
-    }
-  },
-  "DuckDuckGo": {
-    "querySelector": {
-      "phone": ".result__body a",
-      "pad": ".result__body a"
-    }
-  }
+	"Google Search": {
+		"querySelector": {
+			"phone": ".mnr-c .KJDcUb a.BmP5tf",
+			"pad": ".yuRUbf > a",
+			"desktop": ".g a cite"
+		},
+		"search_engine_json": {
+			"required_params": ["q"],
+			"required_prefix": "google.com/search"
+		}
+	},
+	"DuckDuckGo": {
+		"querySelector": {
+			"phone": ".result__body a",
+			"pad": ".result__body a",
+			"desktop": ".result__url__domain"
+		},
+		"search_engine_json": {
+			"required_params": ["q"],
+			"required_prefix": "duckduckgo.com"
+		}
+	}
 }
