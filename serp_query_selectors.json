@@ -20,5 +20,16 @@
 			"required_params": ["q"],
 			"required_prefix": "duckduckgo.com"
 		}
-	}
+	},
+	"Bing": {
+	    "querySelector": {
+	      "phone": ".b_attribution cite",
+	      "pad": ".b_attribution cite",
+	      "desktop": ".b_attribution cite"
+	    },
+	    "search_engine_json": {
+	      "required_params": ["q"],
+	      "required_prefix": "bing.com/search"
+	    }
+  	}
 }
