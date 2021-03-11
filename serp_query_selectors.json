@@ -2,8 +2,8 @@
 	"Google Search": {
 		"querySelector": {
 			"phone": ".mnr-c .KJDcUb a.BmP5tf",
-			"pad": ".yuRUbf > a",
-			"desktop": ".g a cite"
+			"pad": ".hlcw0c .yuRUbf > a",
+			"desktop": ".hlcw0c .yuRUbf > a cite"
 		},
 		"search_engine_json": {
 			"required_params": ["q"],
