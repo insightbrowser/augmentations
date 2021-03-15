@@ -14,7 +14,7 @@
 		"querySelector": {
 			"phone": ".result__body a",
 			"pad": ".result__body a",
-			"desktop": ".result__url__domain"
+			"desktop": "a.result__url.js-result-extras-url"
 		},
 		"search_engine_json": {
 			"required_params": ["q"],
