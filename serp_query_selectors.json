@@ -2,8 +2,8 @@
 	"Google Search": {
 		"querySelector": {
 			"phone": ".mnr-c .KJDcUb a.BmP5tf",
-			"pad": ".yuRUbf > a",
-			"desktop": ".g a cite"
+			"pad": ".hlcw0c .yuRUbf > a",
+			"desktop": ".hlcw0c .yuRUbf > a cite"
 		},
 		"search_engine_json": {
 			"required_params": ["q"],
@@ -14,7 +14,7 @@
 		"querySelector": {
 			"phone": ".result__body a",
 			"pad": ".result__body a",
-			"desktop": ".result__url__domain"
+			"desktop": "a.result__url.js-result-extras-url"
 		},
 		"search_engine_json": {
 			"required_params": ["q"],
