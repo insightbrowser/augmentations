@@ -1,35 +1,38 @@
 {
-	"Google Search": {
-		"querySelector": {
-			"phone": ".mnr-c .KJDcUb a.BmP5tf",
-			"pad": ".hlcw0c .yuRUbf > a",
-			"desktop": ".hlcw0c .yuRUbf > a cite"
-		},
-		"search_engine_json": {
-			"required_params": ["q"],
-			"required_prefix": "google.com/search"
-		}
-	},
-	"DuckDuckGo": {
-		"querySelector": {
-			"phone": ".result__body a",
-			"pad": ".result__body a",
-			"desktop": "a.result__url.js-result-extras-url"
-		},
-		"search_engine_json": {
-			"required_params": ["q"],
-			"required_prefix": "duckduckgo.com"
-		}
-	},
-	"Bing": {
-	    "querySelector": {
-	      "phone": ".b_attribution cite",
-	      "pad": ".b_attribution cite",
-	      "desktop": ".b_attribution cite"
-	    },
-	    "search_engine_json": {
-	      "required_params": ["q"],
-	      "required_prefix": "bing.com/search"
-	    }
-  	}
+  "Google Search": {
+    "querySelector": {
+      "phone": ".mnr-c .KJDcUb a.BmP5tf",
+      "pad": ".hlcw0c .yuRUbf > a",
+      "desktop": ".hlcw0c .yuRUbf > a cite",
+      "featured": [".kp-blk.c2xzTb .yuRUbf > a"]
+    },
+    "search_engine_json": {
+      "required_params": ["q"],
+      "required_prefix": "google.com/search"
+    }
+  },
+  "DuckDuckGo": {
+    "querySelector": {
+      "phone": ".result__body a",
+      "pad": ".result__body a",
+      "desktop": "a.result__url.js-result-extras-url",
+      "featured": []
+    },
+    "search_engine_json": {
+      "required_params": ["q"],
+      "required_prefix": "duckduckgo.com"
+    }
+  },
+  "Bing": {
+    "querySelector": {
+      "phone": ".b_attribution cite",
+      "pad": ".b_attribution cite",
+      "desktop": ".b_attribution cite",
+      "featured": []
+    },
+    "search_engine_json": {
+      "required_params": ["q"],
+      "required_prefix": "bing.com/search"
+    }
+  }
 }
