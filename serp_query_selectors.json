@@ -4,6 +4,7 @@
       "phone": ".mnr-c .KJDcUb a.BmP5tf",
       "pad": ".hlcw0c .yuRUbf > a",
       "desktop": ".hlcw0c .yuRUbf > a cite",
+      "result_container_selector": "[data-hveid]",
       "featured": [".kp-blk.c2xzTb .yuRUbf > a"]
     },
     "search_engine_json": {
@@ -16,6 +17,7 @@
       "phone": ".result__body a",
       "pad": ".result__body a",
       "desktop": "a.result__url.js-result-extras-url",
+      "result_container_selector": ".result__body",
       "featured": []
     },
     "search_engine_json": {
@@ -28,6 +30,7 @@
       "phone": ".b_attribution cite",
       "pad": ".b_attribution cite",
       "desktop": ".b_attribution cite",
+      "result_container_selector": ".b_algo",
       "featured": []
     },
     "search_engine_json": {
