@@ -1,128 +1,177 @@
 [
-    {
-      "name": "US News",
-      "intent_id": "news_us",
-      "google_css": "",
-      "sites": "foxnews.com,politico.com,cbsnews.com,npr.org,today.com,abcnews.go.com,axios.com,newsweek.com,news.yahoo.com,bloomberg.com,cnbc.com,investingcube.com,marketwatch.com,markets.businessinsider.com,fool.com,seekingalpha.com"
-    },
-    {
-      "name": "Travel",
-      "intent_id": "travel",
-      "google_css": "",
-      "sites": "tripadvisor.com,tripadvisor.co.uk,tripadvisor.ca,tripadvisor.in,theculturetrip.com"
-    },
-    {
-      "name": "Books",
-      "intent_id": "books",
-      "google_css": "",
-      "sites": "goodreads.com"
-    },
-    {
-      "name": "Recipes",
-      "intent_id": "recipes",
-      "google_css": ".YwonT",
-      "sites": "allrecipes.com,loveandlemons.com,cookieandkate.com"
-    },
-    {
-      "name": "Gaming",
-      "intent_id": "gaming",
-      "google_css": "",
-      "sites": "ign.com,kotaku.com,gamesradar.com,polygon.com,pcgamer.com"
-    },
-    {
-      "name": "News",
-      "intent_id": "news",
-      "google_css": ".EPLo7b",
-      "sites": ""
-    },
-    {
-      "name": "Maps",
-      "intent_id": "maps",
-      "google_css": ".H93uF",
-      "sites": ""
-    },
-    {
-      "name": "Calculator",
-      "intent_id": "calculator",
-      "google_css": "[aria-label='calculations history']",
-      "sites": ""
-    },
-    {
-      "name": "Conversion",
-      "intent_id": "conversion",
-      "google_css": "[aria-label='Currency exchange rate converter']",
-      "sites": ""
-    },
-    {
-      "name": "Weather",
-      "intent_id": "weather",
-      "google_css": "#wob_wc",
-      "sites": ""
-    },
-    {
-      "name": "Flights",
-      "intent_id": "flights",
-      "google_css": "[aria-label='Show flights on Google Flights']",
-      "sites": ""
-    },
-    {
-      "name": "Dictionary",
-      "intent_id": "dictionary",
-      "google_css": ".gycwpf",
-      "sites": ""
-    },
-    {
-      "name": "Events",
-      "intent_id": "events",
-      "google_css": ".PaEvOc",
-      "sites": ""
-    },
-    {
-      "name": "Images",
-      "intent_id": "images",
-      "google_css": "#iur",
-      "sites": ""
-    },
-    {
-      "name": "Shopping",
-      "intent_id": "shopping",
-      "google_css": "#aspects",
-      "sites": ""
-    },
-    {
-      "name": "Jobs",
-      "intent_id": "jobs",
-      "google_css": "[aria-label='Google interactive job search.']",
-      "sites": ""
-    },
-    {
-      "name": "Knowledge Graph Entity",
-      "intent_id": "knowledgegraphentity",
-      "google_css": ". kp-wholepage",
-      "sites": ""
-    },
-    {
-      "name": "Academic Papers",
-      "intent_id": "papers",
-      "google_css": "table.k6t1jb",
-      "sites": ""
-    },
-    {
-      "name": "Sports Scores",
-      "intent_id": "scores",
-      "google_css": "#sports-app",
-      "sites": ""
-    },
-    {
-      "name": "List of Entities",
-      "intent_id": "listofentities",
-      "google_css": ".rl_container",
-      "sites": ""
-    },
-    {
-      "name": "Hotels",
-      "intent_id": "hotels",
-      "google_css": ".ntKMYc",
-      "sites": ""
-    }
-  ]
+  {
+    "name": "US News",
+    "stay_collapsed": "",
+    "intent_id": "news_us",
+    "google_css": "",
+    "sites": "foxnews.com,politico.com,cbsnews.com,npr.org,today.com,abcnews.go.com,axios.com,newsweek.com,news.yahoo.com,bloomberg.com,cnbc.com,investingcube.com,marketwatch.com,markets.businessinsider.com,fool.com,seekingalpha.com"
+  },
+  {
+    "name": "Travel",
+    "stay_collapsed": "",
+    "intent_id": "travel",
+    "google_css": "",
+    "sites": "tripadvisor.com,tripadvisor.co.uk,tripadvisor.ca,tripadvisor.in,theculturetrip.com"
+  },
+  {
+    "name": "Books",
+    "stay_collapsed": "",
+    "intent_id": "books",
+    "google_css": "",
+    "sites": "goodreads.com"
+  },
+  {
+    "name": "Recipes",
+    "stay_collapsed": "",
+    "intent_id": "recipes",
+    "google_css": ".YwonT",
+    "sites": "allrecipes.com,loveandlemons.com,cookieandkate.com"
+  },
+  {
+    "name": "Gaming",
+    "stay_collapsed": "",
+    "intent_id": "gaming",
+    "google_css": "",
+    "sites": "ign.com,kotaku.com,gamesradar.com,polygon.com,pcgamer.com"
+  },
+  {
+    "name": "News",
+    "stay_collapsed": "",
+    "intent_id": "news",
+    "google_css": ".EPLo7b",
+    "sites": ""
+  },
+  {
+    "name": "Maps",
+    "stay_collapsed": "checked",
+    "intent_id": "maps",
+    "google_css": ".H93uF",
+    "sites": ""
+  },
+  {
+    "name": "Calculator",
+    "stay_collapsed": "checked",
+    "intent_id": "calculator",
+    "google_css": "[aria-label='calculations history']",
+    "sites": ""
+  },
+  {
+    "name": "Conversion",
+    "stay_collapsed": "checked",
+    "intent_id": "conversion",
+    "google_css": "[aria-label='Currency exchange rate converter']",
+    "sites": ""
+  },
+  {
+    "name": "Weather",
+    "stay_collapsed": "checked",
+    "intent_id": "weather",
+    "google_css": "#wob_wc",
+    "sites": ""
+  },
+  {
+    "name": "Flights",
+    "stay_collapsed": "checked",
+    "intent_id": "flights",
+    "google_css": "[aria-label='Show flights on Google Flights']",
+    "sites": ""
+  },
+  {
+    "name": "Dictionary",
+    "stay_collapsed": "checked",
+    "intent_id": "dictionary",
+    "google_css": ".gycwpf",
+    "sites": ""
+  },
+  {
+    "name": "Events",
+    "stay_collapsed": "",
+    "intent_id": "events",
+    "google_css": ".PaEvOc",
+    "sites": ""
+  },
+  {
+    "name": "Images",
+    "stay_collapsed": "",
+    "intent_id": "images",
+    "google_css": "#iur",
+    "sites": ""
+  },
+  {
+    "name": "Shopping",
+    "stay_collapsed": "",
+    "intent_id": "shopping",
+    "google_css": "#aspects",
+    "sites": ""
+  },
+  {
+    "name": "Jobs",
+    "stay_collapsed": "",
+    "intent_id": "jobs",
+    "google_css": "[aria-label='Google interactive job search.']",
+    "sites": ""
+  },
+  {
+    "name": "Knowledge Graph Entity",
+    "stay_collapsed": "checked",
+    "intent_id": "knowledgegraphentity",
+    "google_css": ". kp-wholepage",
+    "sites": ""
+  },
+  {
+    "name": "Academic Papers",
+    "stay_collapsed": "",
+    "intent_id": "papers",
+    "google_css": "table.k6t1jb",
+    "sites": ""
+  },
+  {
+    "name": "Sports Scores",
+    "stay_collapsed": "checked",
+    "intent_id": "scores",
+    "google_css": "#sports-app",
+    "sites": ""
+  },
+  {
+    "name": "List of Entities",
+    "stay_collapsed": "",
+    "intent_id": "listofentities",
+    "google_css": ".rl_container",
+    "sites": ""
+  },
+  {
+    "name": "Hotels",
+    "stay_collapsed": "",
+    "intent_id": "hotels",
+    "google_css": ".ntKMYc",
+    "sites": ""
+  },
+  {
+    "name": "Startups",
+    "stay_collapsed": "",
+    "intent_id": "startups",
+    "google_css": "",
+    "sites": "ycombinator.com,firstround.com,inc.com,blog.ycombinator.com,a16z.com,pillar.vc,angel.co,designerhire.com,fundersclub.com,carta.com,rocketspace.com,fundz.net,captable.io,seedrankings.com,betaboom.com,alejandrocremades.com,growthmentor.com,theproductmanager.com,aha.io/roadmapping,lucidchart.com/blog,review.firstround.com,search.firstround.com"
+  },
+  {
+    "name": "Marketing",
+    "stay_collapsed": "",
+    "intent_id": "marketing",
+    "google_css": "",
+    "sites": "blog.hootsuite.com,later.com,adespresso.com,blog.hubspot.com,demandcurve.com,martechtoday.com,searchenginejournal.com,searchengineland.com,moz.com,semrush.com,socialmediaexaminer.com,ahrefs.com,qualtrics.com,neilpatel.com,sproutsocial.com,wordstream.com,blog.alexa.com"
+  },
+  {
+    "name": "Running",
+    "stay_collapsed": "",
+    "intent_id": "running",
+    "google_css": "",
+    "sites": "runnersworld.com,runtastic.com,c25k.com"
+  },
+  {
+    "name": "Formula 1",
+    "stay_collapsed": "",
+    "intent_id": "formula1",
+    "google_css": "",
+    "sites": "autosport.com,motorsport.com,formula1.com"
+  }
+]
