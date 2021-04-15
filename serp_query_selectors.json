@@ -37,5 +37,18 @@
       "required_params": ["q"],
       "required_prefix": "bing.com/search"
     }
+  },
+  "Amazon": {
+    "querySelector": {
+      "desktop": "",
+      "featured": [],
+      "pad": "",
+      "phone": "",
+      "result_container_selector": ""
+    },
+    "search_engine_json": {
+      "required_params": ["k"],
+      "required_prefix": "amazon.com/s"
+    }
   }
 }
