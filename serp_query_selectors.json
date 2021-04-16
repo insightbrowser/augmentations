@@ -38,7 +38,7 @@
       "required_prefix": "bing.com/search"
     }
   },
-  "Amazon": {
+  "Amazon US": {
     "querySelector": {
       "desktop": "",
       "featured": [],
