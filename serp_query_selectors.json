@@ -3,7 +3,7 @@
     "querySelector": {
       "phone": ".mnr-c .KJDcUb a.BmP5tf",
       "pad": ".hlcw0c .yuRUbf > a",
-      "desktop": ".hlcw0c .yuRUbf > a cite",
+      "desktop": "#center_col div:not(.kp-blk *) > .yuRUbf > a cite",
       "result_container_selector": "[data-hveid]",
       "featured": [".kp-blk.c2xzTb .yuRUbf > a"]
     },
