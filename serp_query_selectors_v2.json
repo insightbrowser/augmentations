@@ -1,35 +1,54 @@
 {
-	"Google Search": {
-		"querySelector": {
-			"phone": ".mnr-c .KJDcUb a.BmP5tf",
-			"pad": ".kCrYT > a",
-			"desktop": ".hlcw0c .yuRUbf > a cite"
-		},
-		"search_engine_json": {
-			"required_params": ["q"],
-			"required_prefix": "google.com/search"
-		}
-	},
-	"DuckDuckGo": {
-		"querySelector": {
-			"phone": ".result__a",
-			"pad": ".result__a",
-			"desktop": "a.result__url.js-result-extras-url"
-		},
-		"search_engine_json": {
-			"required_params": ["q"],
-			"required_prefix": "duckduckgo.com"
-		}
-	},
-	"Bing": {
-	    "querySelector": {
-	      "phone": ".b_attribution cite",
-	      "pad": ".b_attribution cite",
-	      "desktop": ".b_attribution cite"
-	    },
-	    "search_engine_json": {
-	      "required_params": ["q"],
-	      "required_prefix": "bing.com/search"
-	    }
-  	}
+  "Google Search": {
+    "querySelector": {
+      "phone": ".mnr-c .KJDcUb a.BmP5tf",
+      "pad": ".kCrYT > a",
+      "desktop": "#center_col div:not(.kp-blk *) > .yuRUbf > a cite",
+      "result_container_selector": "[data-hveid]",
+      "featured": [".kp-blk.c2xzTb .yuRUbf > a"]
+    },
+    "search_engine_json": {
+      "required_params": ["q"],
+      "required_prefix": "google.com/search"
+    }
+  },
+  "DuckDuckGo": {
+    "querySelector": {
+      "phone": "div.results .result__a",
+      "pad": "div.results .result__a",
+      "desktop": "a.result__url.js-result-extras-url",
+      "result_container_selector": ".result__body",
+      "featured": []
+    },
+    "search_engine_json": {
+      "required_params": ["q"],
+      "required_prefix": "duckduckgo.com"
+    }
+  },
+  "Bing": {
+    "querySelector": {
+      "phone": ".b_attribution cite",
+      "pad": ".b_attribution cite",
+      "desktop": ".b_attribution cite",
+      "result_container_selector": ".b_algo",
+      "featured": []
+    },
+    "search_engine_json": {
+      "required_params": ["q"],
+      "required_prefix": "bing.com/search"
+    }
+  },
+  "Amazon US": {
+    "querySelector": {
+      "desktop": "",
+      "featured": [],
+      "pad": "",
+      "phone": "",
+      "result_container_selector": ""
+    },
+    "search_engine_json": {
+      "required_params": ["k"],
+      "required_prefix": "amazon.com/s"
+    }
+  }
 }
