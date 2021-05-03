@@ -14,8 +14,8 @@
   },
   "DuckDuckGo": {
     "querySelector": {
-      "phone": "div.results .result__a",
-      "pad": "div.results .result__a",
+      "phone": "div.results a.result__url.js-result-extras-url",
+      "pad": "div.results a.result__url.js-result-extras-url",
       "desktop": "a.result__url.js-result-extras-url",
       "result_container_selector": ".result__body",
       "featured": []
