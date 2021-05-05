@@ -50,5 +50,18 @@
       "required_params": ["k"],
       "required_prefix": "amazon.com/s"
     }
+  },
+  "Ecosia": {
+    "querySelector": {
+      "desktop": "div:not(.card-ad) > .result .result-url",
+      "featured": [],
+      "pad": "div:not(.card-ad) > .result .result-url",
+      "phone": "div:not(.card-ad) > .result .result-url",
+      "result_container_selector": ".result"
+    },
+    "search_engine_json": {
+      "required_params": ["q"],
+      "required_prefix": "ecosia.org/search"
+    }
   }
 }
