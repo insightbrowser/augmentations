@@ -63,5 +63,18 @@
       "required_params": ["q"],
       "required_prefix": "ecosia.org/search"
     }
+  },
+  "Neeva": {
+    "querySelector": {
+      "desktop": "div[data-gtid=result-item] .web-index__linkTitle-oESam a",
+      "featured": [],
+      "pad": "div[data-gtid=result-item] .web-index__linkTitle-oESam a",
+      "phone": "div[data-gtid=result-item] .web-index__linkTitle-oESam a",
+      "result_container_selector": ".result-container__wrapper-38pV8"
+    },
+    "search_engine_json": {
+      "required_params": ["q"],
+      "required_prefix": "neeva.com/search"
+    }
   }
 }
