@@ -1,5 +1,7 @@
 {
   "medium.com/better-programming": {
+    "url": "betterprogramming.pub",
+    "description": "Advice for programmers.",
     "tags": [
       { "text": "this is a great website!", "rating": 3.6 },
       { "text": "paid for by affiliate links", "rating": 4.5 }
