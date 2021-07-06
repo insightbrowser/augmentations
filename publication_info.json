@@ -4,5 +4,29 @@
       { "text": "this is a great website!", "rating": 3.6 },
       { "text": "paid for by affiliate links", "rating": 4.5 }
     ]
+  },
+  "github.com/facebook": {
+    "tags": [
+      { "text": "hate this", "rating": 1.8 },
+      { "text": "kinda cool", "rating": 4.1 }
+    ]
+  },
+   "twitter.com/thepracticaldev": {
+    "tags": [
+      { "text": "okayish thing", "rating": 3.2 },
+      { "text": "just perfect", "rating": 5.0 }
+    ]
+  },
+  "nbcnews.com": {
+    "tags": [
+      { "text": "cool site", "rating": 4.4 },
+      { "text": "not impressed", "rating": 2.8 }
+    ]
+  },
+  "cnn.com": {
+    "tags": [
+      { "text": "my opinion", "rating": 2.4 },
+      { "text": "another opinion", "rating": 4.8 }
+    ]
   }
 }
