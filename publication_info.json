@@ -1,7 +1,7 @@
 {
   "medium.com/better-programming": {
     "tags": [
-      { "text": "Test 0", "rating": 3.6 },
+      { "text": "Test 0", "rating": 3.6 }
     ]
   },
   "github.com/facebook": {
@@ -11,7 +11,7 @@
   },
    "twitter.com/thepracticaldev": {
     "tags": [
-      { "text": "Test 2", "rating": 3.2 },
+      { "text": "Test 2", "rating": 3.2 }
     ]
   },
   "nbcnews.com": {
