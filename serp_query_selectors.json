@@ -79,10 +79,10 @@
   },
   "Brave": {
     "querySelector": {
-      "desktop": "#results .snippet a",
+      "desktop": "#results .snippet a.result-header",
       "featured": [],
-      "pad": "#results .snippet a",
-      "phone": "#results .snippet a",
+      "pad": "#results .snippet a.result-header",
+      "phone": "#results .snippet a.result-header",
       "result_container_selector": "#results .snippet"
     },
     "search_engine_json": {
