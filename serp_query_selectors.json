@@ -76,5 +76,18 @@
       "required_params": ["q"],
       "required_prefix": "neeva.com/search"
     }
+  },
+  "Brave": {
+    "querySelector": {
+      "desktop": "#results .snippet a",
+      "featured": [],
+      "pad": "#results .snippet a",
+      "phone": "#results .snippet a",
+      "result_container_selector": "#results .snippet"
+    },
+    "search_engine_json": {
+      "required_params": ["q"],
+      "required_prefix": "search.brave.com/search"
+    }
   }
 }
