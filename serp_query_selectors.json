@@ -5,7 +5,8 @@
       "pad": ".hlcw0c .yuRUbf > a",
       "desktop": "#center_col div:not(.kp-blk *) > .yuRUbf > a cite",
       "result_container_selector": "[data-hveid]",
-      "featured": [".kp-blk.c2xzTb .yuRUbf > a"]
+      "featured": [".kp-blk.c2xzTb .yuRUbf > a"],
+      "highlight": ".MBeuO"
     },
     "search_engine_json": {
       "required_params": ["q"],
@@ -18,7 +19,8 @@
       "pad": ".result__body a",
       "desktop": "a.result__url.js-result-extras-url",
       "result_container_selector": ".result__body",
-      "featured": []
+      "featured": [],
+      "highlight": ""
     },
     "search_engine_json": {
       "required_params": ["q"],
@@ -31,7 +33,8 @@
       "pad": ".b_attribution cite",
       "desktop": ".b_attribution cite",
       "result_container_selector": ".b_algo",
-      "featured": []
+      "featured": [],
+      "highlight": ""
     },
     "search_engine_json": {
       "required_params": ["q"],
@@ -44,7 +47,8 @@
       "featured": [],
       "pad": "",
       "phone": "",
-      "result_container_selector": ""
+      "result_container_selector": "",
+      "highlight": ""
     },
     "search_engine_json": {
       "required_params": ["k"],
@@ -57,7 +61,8 @@
       "featured": [],
       "pad": "div:not(.card-ad) > .result .result-url",
       "phone": "div:not(.card-ad) > .result .result-url",
-      "result_container_selector": ".result"
+      "result_container_selector": ".result",
+      "highlight": ""
     },
     "search_engine_json": {
       "required_params": ["q"],
@@ -70,7 +75,8 @@
       "featured": [],
       "pad": "div[data-gtid=result-item] .web-index__linkTitle-oESam a",
       "phone": "div[data-gtid=result-item] .web-index__linkTitle-oESam a",
-      "result_container_selector": ".result-container__wrapper-38pV8"
+      "result_container_selector": ".result-container__wrapper-38pV8",
+      "highlight": ""
     },
     "search_engine_json": {
       "required_params": ["q"],
@@ -83,7 +89,8 @@
       "featured": [],
       "pad": "#results .snippet a.result-header",
       "phone": "#results .snippet a.result-header",
-      "result_container_selector": "#results .snippet"
+      "result_container_selector": "#results .snippet",
+      "highlight": ""
     },
     "search_engine_json": {
       "required_params": ["q"],
