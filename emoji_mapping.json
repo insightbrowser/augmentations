@@ -43,5 +43,13 @@
   "₿": {
     "ios": "bitcoinsign.circle.fill",
     "web": "DollarSign"
+  },
+  "⭐": {
+    "ios": "star.fill",
+    "web": "Star"
+  },
+  "🔬": {
+    "ios": "star.fill",
+    "web": "Star"
   }
 }
