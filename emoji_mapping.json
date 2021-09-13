@@ -4,7 +4,7 @@
   },
   "🎉": {
     "ios": "sparkles",
-    "web": "gift"
+    "web": "Gift"
   },
   "⚾️": {
     "ios": "sportscourt.fill"
@@ -14,34 +14,34 @@
   },
   "📰": {
     "ios": "newspaper.fill",
-    "web": "inbox"
+    "web": "Inbox"
   },
   "🔎": {
     "ios": "magnifyingglass",
-    "web": "search"
+    "web": "Search"
   },
   "🛒": {
     "ios": "cart.fill",
-    "web": "shopping-cart"
+    "web": "ShoppingCart"
   },
   "🎥": {
     "ios": "camera.fill",
-    "web": "camera"
+    "web": "Camera"
   },
   "📖": {
     "ios": "book.fill",
-    "web": "book-open"
+    "web": "BookOpen"
   },
   "🏛": {
     "ios": "archivebox.fill",
-    "web": "archive"
+    "web": "Archive"
   },
   "⚕": {
     "ios": "cross.case.fill",
-    "web": "activity"
+    "web": "Activity"
   },
   "₿": {
     "ios": "bitcoinsign.circle.fill",
-    "web": "dollar-sign"
+    "web": "DollarSign"
   }
 }
