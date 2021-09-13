@@ -1,38 +1,47 @@
 {
   "🚀": {
-    "sf": "flame.fill"
+    "ios": "flame.fill"
   },
   "🎉": {
-    "sf": "sparkles"
+    "ios": "sparkles",
+    "web": "gift"
   },
   "⚾️": {
-    "sf": "sportscourt.fill"
+    "ios": "sportscourt.fill"
   },
   "🍳": {
-    "sf": "takeoutbag.and.cup.and.straw.fill"
+    "ios": "takeoutbag.and.cup.and.straw.fill"
   },
   "📰": {
-    "sf": "newspaper.fill"
+    "ios": "newspaper.fill",
+    "web": "inbox"
   },
   "🔎": {
-    "sf": "magnifyingglass"
+    "ios": "magnifyingglass",
+    "web": "search"
   },
   "🛒": {
-    "sf": "cart.fill"
+    "ios": "cart.fill",
+    "web": "shopping-cart"
   },
   "🎥": {
-    "sf": "camera.fill"
+    "ios": "camera.fill",
+    "web": "camera"
   },
   "📖": {
-    "sf": "book.fill"
+    "ios": "book.fill",
+    "web": "book-open"
   },
   "🏛": {
-    "sf": "archivebox.fill"
+    "ios": "archivebox.fill",
+    "web": "archive"
   },
   "⚕": {
-    "sf": "cross.case.fill"
+    "ios": "cross.case.fill",
+    "web": "activity"
   },
   "₿": {
-    "sf": "bitcoinsign.circle.fill"
+    "ios": "bitcoinsign.circle.fill",
+    "web": "dollar-sign"
   }
 }
