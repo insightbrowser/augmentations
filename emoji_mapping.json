@@ -21,6 +21,18 @@
     "sf": "cart.fill"
   },
   "🎥": {
-    "sf": "camera.fill" 
+    "sf": "camera.fill"
+  },
+  "📖": {
+    "sf": "book.fill"
+  },
+  "🏛": {
+    "sf": "archivebox.fill"
+  },
+  "⚕": {
+    "sf": "cross.case.fill"
+  },
+  "₿": {
+    "sf": "bitcoinsign.circle.fill"
   }
 }
