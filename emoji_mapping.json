@@ -36,7 +36,7 @@
     "ios": "archivebox.fill",
     "web": "Archive"
   },
-  "⚕": {
+  "⚕️": {
     "ios": "cross.case.fill",
     "web": "Activity"
   },
@@ -44,12 +44,20 @@
     "ios": "bitcoinsign.circle.fill",
     "web": "DollarSign"
   },
+  "💵": {
+    "ios": "bitcoinsign.circle.fill",
+    "web": "DollarSign"
+  },
   "⭐": {
     "ios": "star.fill",
     "web": "Star"
   },
-  "🔬": {
-    "ios": "star.fill",
-    "web": "Star"
+  "📱": {
+    "ios": "iphone",
+    "web": "Smartphone"
+  },
+  "📚": {
+    "ios": "books.vertical.fill",
+    "web": "Book"
   }
 }
