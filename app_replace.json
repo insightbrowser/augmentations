@@ -1,0 +1,11 @@
+{
+  "reddit": {
+    "name": "Reddit",
+    "protocol": "reddit",
+    "hostname": "reddit.com"
+  },
+  "apollo": {
+    "name": "Apollo for Reddit",
+    "protocol": "apollo"
+  }
+}
