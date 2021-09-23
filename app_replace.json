@@ -11,7 +11,7 @@
   "twitter": {
     "name": "Twitter",
     "protocol": "twitter",
-    "hotname": "twitter.com"
+    "hostname": "twitter.com"
   },
   "tweetbot": {
     "name": "Tweetbot",
