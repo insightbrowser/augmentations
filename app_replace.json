@@ -1,20 +1,40 @@
 {
-  "reddit": {
-    "name": "Reddit",
-    "protocol": "reddit",
-    "hostname": "reddit.com"
+  "reddit-to-apollo": {
+    "name": "Reddit to Apollo for Reddit",
+    "mappings": [
+      {
+        "from": "https:\/\/((www\\.|amp\\.)?reddit\\.com.*)",
+        "to": "apollo://%r0"
+      },
+      {
+        "from": "reddit:\/\/(.*)",
+        "to": "apollo://%r0"
+      }
+    ]
   },
-  "apollo": {
-    "name": "Apollo for Reddit",
-    "protocol": "apollo"
-  },
-  "twitter": {
-    "name": "Twitter",
-    "protocol": "twitter",
-    "hostname": "twitter.com"
-  },
-  "tweetbot": {
-    "name": "Tweetbot",
-    "protocol": "tweetbot"
+  "twitter-to-tweetbot": {
+    "name": "Twitter to Tweetbot",
+    "mappings": [
+      {
+        "from": "https:\/\/((www\\.|mobile\\.)?twitter\\.com\/?)$",
+        "to": "tweetbot://%r0"
+      },
+      {
+        "from": "https:\/\/(www\\.|mobile\\.)?twitter\\.com\/(.*)\/status\/(\\d*)",
+        "to": "tweetbot://%r1/status/%r2"
+      },
+      {
+        "from": "https:\/\/((www\\.|mobile\\.)?twitter\\.com\/search.*)",
+        "to": "tweetbot://%r0"
+      },
+      {
+        "from": "https:\/\/(www\\.|mobile\\.)?twitter\\.com\/([^\/?]*)",
+        "to": "tweetbot://%r1/user_profile/%r1"
+      },
+      {
+        "from": "https:\/\/((www\\.|mobile\\.)?twitter\\.com\/.*)",
+        "to": "tweetbot://%r0"
+      }
+    ]
   }
 }
