@@ -7,5 +7,14 @@
   "apollo": {
     "name": "Apollo for Reddit",
     "protocol": "apollo"
+  },
+  "twitter": {
+    "name": "Twitter",
+    "protocol": "twitter",
+    "hotname": "twitter.com"
+  },
+  "tweetbot": {
+    "name": "Tweetbot",
+    "protocol": "tweetbot"
   }
 }
