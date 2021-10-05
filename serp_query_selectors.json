@@ -120,7 +120,7 @@
       "other_params": {
         "cat": "web",
       	"pl": "opensearch",
-	      "language": "english"
+	"language": "english"
       }
     }
   },
@@ -138,8 +138,24 @@
       "required_params": ["q"],
       "required_prefix": "qwant.com?q",
       "other_params": {
-	      "client": "opensearch"
+        "client": "opensearch"
       }
+    }
+  },
+  "Mojeek": {
+    "querySelector": {
+      "desktop": "",
+      "featured": [],
+      "pad": "",
+      "phone": "",
+      "result_container_selector": "",
+      "highlight": ""
+    },
+    "search_engine_json": {
+      "is_web_search": true,
+      "required_params": ["q"],
+      "required_prefix": "mojeek.com/search?q",
+      "other_params": {}
     }
   }
 }
