@@ -12,7 +12,7 @@
       "is_web_search": true,
       "required_params": ["q"],
       "required_prefix": "google.com/search",
-      "match_prefix": "google\\.com(\\.\\w+)?\/search"
+      "match_prefix": "google(\\.com)?(\.\w+)?(\\.\\w+)?\/search"
     }
   },
   "DuckDuckGo": {
@@ -44,7 +44,7 @@
       "is_web_search": true,
       "required_params": ["q"],
       "required_prefix": "bing.com/search",
-      "match_prefix": "bing\\.com(\\.\\w+)?\/search"
+      "match_prefix": "bing(\\.com)?(\\.\\w+)?\/search"
     }
   },
   "Amazon US": {
@@ -60,7 +60,7 @@
       "is_web_search": false,
       "required_params": ["k"],
       "required_prefix": "amazon.com/s",
-      "match_prefix": "amazon\\.com(\\.\\w+)?\/search"
+      "match_prefix": "amazon(\\.com)?(\\.\\w+)?\/search"
     }
   },
   "Ecosia": {
