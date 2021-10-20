@@ -11,7 +11,8 @@
     "search_engine_json": {
       "is_web_search": true,
       "required_params": ["q"],
-      "required_prefix": "google.com/search"
+      "required_prefix": "google.com/search",
+      "match_prefix": "google\\.com(\\.\\w+)?\/search"
     }
   },
   "DuckDuckGo": {
@@ -26,7 +27,8 @@
     "search_engine_json": {
       "is_web_search": true,
       "required_params": ["q"],
-      "required_prefix": "duckduckgo.com"
+      "required_prefix": "duckduckgo.com",
+      "match_prefix": "duckduckgo.com"
     }
   },
   "Bing": {
@@ -41,7 +43,8 @@
     "search_engine_json": {
       "is_web_search": true,
       "required_params": ["q"],
-      "required_prefix": "bing.com/search"
+      "required_prefix": "bing.com/search",
+      "match_prefix": "bing\\.com(\\.\\w+)?\/search"
     }
   },
   "Amazon US": {
@@ -56,7 +59,8 @@
     "search_engine_json": {
       "is_web_search": false,
       "required_params": ["k"],
-      "required_prefix": "amazon.com/s"
+      "required_prefix": "amazon.com/s",
+      "match_prefix": "amazon\\.com(\\.\\w+)?\/search"
     }
   },
   "Ecosia": {
@@ -71,7 +75,8 @@
     "search_engine_json": {
       "is_web_search": true,
       "required_params": ["q"],
-      "required_prefix": "ecosia.org/search"
+      "required_prefix": "ecosia.org/search",
+      "match_prefix": "ecosia\\.org\/search"
     }
   },
   "Neeva": {
@@ -86,7 +91,8 @@
     "search_engine_json": {
       "is_web_search": true,
       "required_params": ["q"],
-      "required_prefix": "neeva.com/search"
+      "required_prefix": "neeva.com/search",
+      "match_prefix": "neeva\\.com\/search"
     }
   },
   "Brave": {
@@ -101,7 +107,8 @@
     "search_engine_json": {
       "is_web_search": true,
       "required_params": ["q"],
-      "required_prefix": "search.brave.com/search"
+      "required_prefix": "search.brave.com/search",
+      "match_prefix": "search\\.brave\\.com(\\.\\w+)?\/search"
     }
   },
   "Startpage": {
@@ -117,10 +124,11 @@
       "is_web_search": true,
       "required_params": ["query"],
       "required_prefix": "startpage.com/sp/search",
+      "match_prefix": "startpage\\.com\/sp\/search",
       "other_params": {
         "cat": "web",
       	"pl": "opensearch",
-	"language": "english"
+	      "language": "english"
       }
     }
   },
@@ -137,6 +145,7 @@
       "is_web_search": true,
       "required_params": ["q"],
       "required_prefix": "qwant.com?q",
+      "match_prefix": "qwant\\.com\\?q",
       "other_params": {
         "client": "opensearch"
       }
@@ -155,6 +164,7 @@
       "is_web_search": true,
       "required_params": ["q"],
       "required_prefix": "mojeek.com/search?q",
+      "match_prefix": "mojeek\\.com\/search\\q",
       "other_params": {}
     }
   }
