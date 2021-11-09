@@ -164,7 +164,7 @@
       "is_web_search": true,
       "required_params": ["q"],
       "required_prefix": "mojeek.com/search?q",
-      "match_prefix": "mojeek\\.com\/search\\q",
+      "match_prefix": "mojeek\\.com\/search\\?q",
       "other_params": {}
     }
   }
