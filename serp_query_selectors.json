@@ -115,8 +115,8 @@
     "querySelector": {
       "desktop": "",
       "featured": [],
-      "pad": "",
-      "phone": "",
+      "pad": ".w-gl__result__main a.w-gl__result-title.result-link",
+      "phone": ".w-gl__result__main a.w-gl__result-title.result-link",
       "result_container_selector": "",
       "highlight": ""
     },
@@ -155,8 +155,8 @@
     "querySelector": {
       "desktop": "",
       "featured": [],
-      "pad": "",
-      "phone": "",
+      "pad": ".results-standard h2 a",
+      "phone": ".results-standard h2 a",
       "result_container_selector": "",
       "highlight": ""
     },
