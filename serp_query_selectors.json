@@ -144,7 +144,7 @@
     "search_engine_json": {
       "is_web_search": true,
       "required_params": ["q"],
-      "required_prefix": "qwant.com?q",
+      "required_prefix": "qwant.com",
       "match_prefix": "qwant\\.com\\?q",
       "other_params": {
         "client": "opensearch"
@@ -163,7 +163,7 @@
     "search_engine_json": {
       "is_web_search": true,
       "required_params": ["q"],
-      "required_prefix": "mojeek.com/search?q",
+      "required_prefix": "mojeek.com/search",
       "match_prefix": "mojeek\\.com\/search\\?q",
       "other_params": {}
     }
@@ -180,7 +180,7 @@
     "search_engine_json": {
       "is_web_search": true,
       "required_params": ["q"],
-      "required_prefix": "you.com/search?q",
+      "required_prefix": "you.com/search",
       "match_prefix": "you\\.com\/search\\?q",
       "other_params": {}
     }
