@@ -56,6 +56,10 @@
     "ios": "iphone",
     "web": "Smartphone"
   },
+  "⚡️": {
+    "ios": "bolt.slash.fill",
+    "web": "Zap"
+  },
   "📚": {
     "ios": "books.vertical.fill",
     "web": "Book"
