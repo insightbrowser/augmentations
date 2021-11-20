@@ -144,7 +144,7 @@
     "search_engine_json": {
       "is_web_search": true,
       "required_params": ["q"],
-      "required_prefix": "qwant.com?q",
+      "required_prefix": "qwant.com",
       "match_prefix": "qwant\\.com\\?q",
       "other_params": {
         "client": "opensearch"
@@ -163,8 +163,25 @@
     "search_engine_json": {
       "is_web_search": true,
       "required_params": ["q"],
-      "required_prefix": "mojeek.com/search?q",
+      "required_prefix": "mojeek.com/search",
       "match_prefix": "mojeek\\.com\/search\\?q",
+      "other_params": {}
+    }
+  },
+  "You": {
+    "querySelector": {
+      "desktop": "",
+      "featured": [],
+      "pad": ".app_container__Qh1ws .app_content__Tr2HC a",
+      "phone": ".app_container__Qh1ws .app_content__Tr2HC a",
+      "result_container_selector": "",
+      "highlight": ""
+    },
+    "search_engine_json": {
+      "is_web_search": true,
+      "required_params": ["q"],
+      "required_prefix": "you.com/search",
+      "match_prefix": "you\\.com\/search\\?q",
       "other_params": {}
     }
   }
