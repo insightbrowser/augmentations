@@ -45,12 +45,16 @@
     "web": "DollarSign"
   },
   "💵": {
-    "ios": "bitcoinsign.circle.fill",
+    "ios": "dollarsign.circle.fill",
     "web": "DollarSign"
   },
   "⭐": {
     "ios": "star.fill",
     "web": "Star"
+  },
+  "🛡": {
+    "ios": "shield.fill",
+    "web": "Shield"
   },
   "📱": {
     "ios": "iphone",
@@ -59,6 +63,10 @@
   "⚡️": {
     "ios": "bolt.slash.fill",
     "web": "Zap"
+  },
+  "🎟": {
+    "ios": "ticket.fill",
+    "web": "Scissors"
   },
   "📚": {
     "ios": "books.vertical.fill",
