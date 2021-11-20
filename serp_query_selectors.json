@@ -167,5 +167,22 @@
       "match_prefix": "mojeek\\.com\/search\\?q",
       "other_params": {}
     }
+  },
+  "You": {
+    "querySelector": {
+      "desktop": "",
+      "featured": [],
+      "pad": ".app_container__Qh1ws .app_content__Tr2HC a",
+      "phone": ".app_container__Qh1ws .app_content__Tr2HC a",
+      "result_container_selector": "",
+      "highlight": ""
+    },
+    "search_engine_json": {
+      "is_web_search": true,
+      "required_params": ["q"],
+      "required_prefix": "you.com/search?q",
+      "match_prefix": "you\\.com\/search\\?q",
+      "other_params": {}
+    }
   }
 }
