@@ -60,7 +60,7 @@
       "is_web_search": false,
       "required_params": ["k"],
       "required_prefix": "amazon.com/s",
-      "match_prefix": "amazon(\\.com)?(\\.\\w+)?\/search"
+      "match_prefix": "amazon(\\.com)?(\\.\\w+)?\/s"
     }
   },
   "Ecosia": {
