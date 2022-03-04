@@ -1,7 +1,7 @@
 {
   "Google Search": {
     "querySelector": {
-      "phone": ".mnr-c .KJDcUb a.BmP5tf, .mnr-c .yuRUbf a.sXtWJb, .mnr-c .tKdlvb a.BmP5tf",
+      "phone": ".mnr-c .yuRUbf a.sXtWJb, .mnr-c .cz3goc.JycXnd.BmP5tf",
       "pad": ".hlcw0c .yuRUbf > a",
       "desktop": "#center_col div:not(.kp-blk *) > .yuRUbf > a cite",
       "result_container_selector": "[data-hveid]",
