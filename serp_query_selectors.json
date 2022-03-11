@@ -10,6 +10,13 @@
     },
     "search_engine_json": {
       "is_web_search": true,
+      "override_required_params": {
+        "q": ".*",
+        "ie": ".*",
+        "oe": ".*",
+        "hl": ".*",
+        "client": ".*"
+      },
       "required_params": ["q"],
       "required_prefix": "google.com/search",
       "match_prefix": "google(\\.\\w+){1,}\/search"
@@ -26,6 +33,10 @@
     },
     "search_engine_json": {
       "is_web_search": true,
+      "override_required_params": {
+        "q": ".*",
+        "t": "iphone"
+      },
       "required_params": ["q"],
       "required_prefix": "duckduckgo.com",
       "match_prefix": "duckduckgo.com"
@@ -42,6 +53,11 @@
     },
     "search_engine_json": {
       "is_web_search": true,
+      "override_required_params": {
+        "q": ".*",
+        "form": ".*",
+        "PC": ".*"
+      },
       "required_params": ["q"],
       "required_prefix": "bing.com/search",
       "match_prefix": "bing(\\.com)?(\\.\\w+)?\/search"
@@ -58,6 +74,7 @@
     },
     "search_engine_json": {
       "is_web_search": false,
+      "override_required_params": {},
       "required_params": ["k"],
       "required_prefix": "amazon.com/s",
       "match_prefix": "amazon(\\.com)?(\\.\\w+)?\/s"
@@ -74,6 +91,10 @@
     },
     "search_engine_json": {
       "is_web_search": true,
+      "override_required_params": {
+      	"q": ".*",
+	"tts": ".*"
+      },
       "required_params": ["q"],
       "required_prefix": "ecosia.org/search",
       "match_prefix": "ecosia\\.org\/search"
@@ -90,6 +111,7 @@
     },
     "search_engine_json": {
       "is_web_search": true,
+      "override_required_params": {},
       "required_params": ["q"],
       "required_prefix": "neeva.com/search",
       "match_prefix": "neeva\\.com\/search"
@@ -106,6 +128,7 @@
     },
     "search_engine_json": {
       "is_web_search": true,
+      "override_required_params": {},
       "required_params": ["q"],
       "required_prefix": "search.brave.com/search",
       "match_prefix": "search\\.brave\\.com(\\.\\w+)?\/search"
@@ -122,6 +145,7 @@
     },
     "search_engine_json": {
       "is_web_search": true,
+      "override_required_params": {},
       "required_params": ["query"],
       "required_prefix": "startpage.com/sp/search",
       "match_prefix": "startpage\\.com\/sp\/search",
@@ -143,6 +167,7 @@
     },
     "search_engine_json": {
       "is_web_search": true,
+      "override_required_params": {},
       "required_params": ["q"],
       "required_prefix": "qwant.com",
       "match_prefix": "qwant\\.com\\?q",
@@ -162,6 +187,7 @@
     },
     "search_engine_json": {
       "is_web_search": true,
+      "override_required_params": {},
       "required_params": ["q"],
       "required_prefix": "mojeek.com/search",
       "match_prefix": "mojeek\\.com\/search\\?q",
@@ -179,9 +205,96 @@
     },
     "search_engine_json": {
       "is_web_search": true,
+      "override_required_params": {},
       "required_params": ["q"],
       "required_prefix": "you.com/search",
       "match_prefix": "you\\.com\/search\\?q",
+      "other_params": {}
+    }
+  },
+  "Baidu": {
+    "querySelector": {
+      "desktop": "",
+      "featured": [],
+      "pad": "",
+      "phone": "",
+      "result_container_selector": "",
+      "highlight": ""
+    },
+    "search_engine_json": {
+      "is_web_search": true,
+      "override_required_params": {
+        "from": ".*",
+        "word": ".*"
+      },
+      "required_params": ["word"],
+      "required_prefix": "m.baidu.com/s",
+      "match_prefix": "(m\\.)?baidu\\.com\/s",
+      "other_params": {}
+    }
+  },
+  "Sogou": {
+    "querySelector": {
+      "desktop": "",
+      "featured": [],
+      "pad": "",
+      "phone": "",
+      "result_container_selector": "",
+      "highlight": ""
+    },
+    "search_engine_json": {
+      "is_web_search": true,
+      "override_required_params": {
+        "keyword": ".*",
+        "v": ".*"
+      },
+      "required_params": ["keyword"],
+      "required_prefix": "m.sogou.com/web/sl",
+      "match_prefix": "(m\\.)?sogou\\.com\/web\/sl",
+      "other_params": {}
+    }
+  },
+  "360 Search": {
+    "querySelector": {
+      "desktop": "",
+      "featured": [],
+      "pad": "",
+      "phone": "",
+      "result_container_selector": "",
+      "highlight": ""
+    },
+    "search_engine_json": {
+      "is_web_search": true,
+      "override_required_params": {
+        "q": ".*",
+        "src": ".*",
+        "srcg": ".*"
+      },
+      "required_params": ["q"],
+      "required_prefix": "m.so.com/s",
+      "match_prefix": "(m\\.)?so\\.com\/s",
+      "other_params": {}
+    }
+  },
+  "Yahoo": {
+    "querySelector": {
+      "desktop": "",
+      "featured": [],
+      "pad": "",
+      "phone": "",
+      "result_container_selector": "",
+      "highlight": ""
+    },
+    "search_engine_json": {
+      "is_web_search": true,
+      "override_required_params": {
+        "p": ".*",
+        "fr": ".*",
+        ".tsrc": ".*"
+      },
+      "required_params": ["p"],
+      "required_prefix": "search.yahoo.com/search",
+      "match_prefix": "search\\.yahoo\\.com\/search",
       "other_params": {}
     }
   }
