@@ -32,10 +32,6 @@
     "ios": "book.fill",
     "web": "BookOpen"
   },
-  "🏛": {
-    "ios": "archivebox.fill",
-    "web": "Archive"
-  },
   "⚕️": {
     "ios": "cross.case.fill",
     "web": "Activity"
