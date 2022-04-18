@@ -29,7 +29,7 @@
       "desktop": "a.result__url.js-result-extras-url",
       "result_container_selector": ".result__body",
       "featured": [],
-      "highlight": ""
+      "highlight": "dummy"
     },
     "search_engine_json": {
       "is_web_search": true,
