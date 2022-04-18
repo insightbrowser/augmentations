@@ -35,7 +35,7 @@
       "is_web_search": true,
       "override_required_params": {
         "q": ".*",
-        "t": "iphone"
+        "t": "iphone|ipad"
       },
       "required_params": ["q"],
       "required_prefix": "duckduckgo.com",
