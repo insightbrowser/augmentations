@@ -29,7 +29,7 @@
       "desktop": "a.result__url.js-result-extras-url",
       "result_container_selector": ".result__body",
       "featured": [],
-      "highlight": "dummy"
+      "highlight": ""
     },
     "search_engine_json": {
       "is_web_search": true,
@@ -289,8 +289,7 @@
       "is_web_search": true,
       "override_required_params": {
         "p": ".*",
-        "fr": ".*",
-        ".tsrc": ".*"
+        "fr": ".*"
       },
       "required_params": ["p"],
       "required_prefix": "search.yahoo.com/search",
