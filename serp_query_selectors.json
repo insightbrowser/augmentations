@@ -24,10 +24,10 @@
   },
   "DuckDuckGo": {
     "querySelector": {
-      "phone": ".result__body a",
-      "pad": ".result__body a",
-      "desktop": "a.result__url.js-result-extras-url",
-      "result_container_selector": ".result__body",
+      "phone": ".results a[data-testid=\"result-title-a\"]",
+      "pad": ".results a[data-testid=\"result-title-a\"]",
+      "desktop": ".results a[data-testid=\"result-title-a\"]",
+      "result_container_selector": ".nrn-react-div",
       "featured": [],
       "highlight": ""
     },
@@ -140,7 +140,7 @@
       "featured": [],
       "pad": ".w-gl__result__main a.w-gl__result-title.result-link",
       "phone": ".w-gl__result__main a.w-gl__result-title.result-link",
-      "result_container_selector": "",
+      "result_container_selector": ".w-gl__result__main",
       "highlight": ""
     },
     "search_engine_json": {
@@ -182,7 +182,7 @@
       "featured": [],
       "pad": ".results-standard h2 a",
       "phone": ".results-standard h2 a",
-      "result_container_selector": "",
+      "result_container_selector": "li",
       "highlight": ""
     },
     "search_engine_json": {
