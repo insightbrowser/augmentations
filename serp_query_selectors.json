@@ -27,7 +27,7 @@
       "phone": ".results a[data-testid=\"result-title-a\"]",
       "pad": ".results a[data-testid=\"result-title-a\"]",
       "desktop": ".results a[data-testid=\"result-title-a\"]",
-      "result_container_selector": ".nrn-react-div",
+      "result_container_selector": ".result__body",
       "featured": [],
       "highlight": ""
     },
