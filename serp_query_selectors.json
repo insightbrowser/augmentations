@@ -290,7 +290,7 @@
       "override_required_params": {
         "p": ".*",
         "fr": ".*",
-	      ".tsrc": ".*"
+        ".tsrc": ".*"
       },
       "override_required_pad_params": {
         "p": ".*",
