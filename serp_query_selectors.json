@@ -1,7 +1,7 @@
 {
   "Google Search": {
     "querySelector": {
-      "phone": ".mnr-c .yuRUbf a.sXtWJb, .mnr-c a.cz3goc.BmP5tf",
+      "phone": ".mnr-c .yuRUbf a.sXtWJb, .mnr-c a.cz3goc.BmP5tf, .MjjYud a.cz3goc.BmP5tf",
       "pad": ".hlcw0c .yuRUbf > a",
       "desktop": "#center_col div:not(.kp-blk *) > .yuRUbf > a cite",
       "result_container_selector": "[data-hveid]",
@@ -180,8 +180,8 @@
     "querySelector": {
       "desktop": "",
       "featured": [],
-      "pad": ".results-standard h2 a",
-      "phone": ".results-standard h2 a",
+      "pad": ".results-standard a.ob",
+      "phone": ".results-standard a.ob",
       "result_container_selector": "li",
       "highlight": ""
     },
@@ -290,7 +290,7 @@
       "override_required_params": {
         "p": ".*",
         "fr": ".*",
-	".tsrc": ".*"
+	      ".tsrc": ".*"
       },
       "override_required_pad_params": {
         "p": ".*",
